@@ -1,0 +1,69 @@
+* {
+   margin: 0;
+   padding: 0;
+   /* outline: none; */
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   background-color: black;
+   color: white;
+   display: grid;
+   place-content: center;
+}
+
+.otp-box-container {
+   width: 100%;
+   max-width: 800px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 2rem;
+}
+
+.otp-box-container h1 {
+   font-size: 2rem;
+}
+
+.otp-boxes {
+   display: flex;
+   gap: 1rem;
+}
+
+.otp-boxes .otp-box {
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   font-size: 1rem;
+   border: 1px solid steelblue;
+   box-shadow: 1px 1px 2px lightblue;
+   border-radius: 0.1rem;
+   -webkit-border-radius: 0.1rem;
+   -moz-border-radius: 0.1rem;
+   -ms-border-radius: 0.1rem;
+   -o-border-radius: 0.1rem;
+}
+
+.otp-validation-message {
+   padding: 0.5rem;
+   font-size: 1rem;
+   border-radius: 0.3rem;
+   -webkit-border-radius: 0.3rem;
+   -moz-border-radius: 0.3rem;
+   -ms-border-radius: 0.3rem;
+   -o-border-radius: 0.3rem;
+}
+
+.success {
+   border: 1px solid green;
+   color: green;
+}
+
+.fail {
+   border: 1px solid red;
+   color: red;
+}
