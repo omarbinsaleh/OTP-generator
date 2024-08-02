@@ -81,14 +81,14 @@ function handleUserInput() {
          // validte the OTP:
          validateOTP();
 
-         if (targetElement === lastElement) {
+         /* if (targetElement === lastElement) {
             setTimeout(() => {
                generateOTP();
                document.querySelector(".otp-validation-message").textContent = "";
                document.querySelector(".otp-validation-message").classList.remove("fail");
                document.querySelector(".otp-validation-message").classList.remove("success");
             }, 1000);
-         }
+         } */
 
       })
    })
